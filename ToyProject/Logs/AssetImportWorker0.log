@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/ToyProject/ToyProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56404
+51110
 Successfully changed project path to: C:/Users/Administrator/Desktop/ToyProject/ToyProject
 C:/Users/Administrator/Desktop/ToyProject/ToyProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/ToyProject/ToyProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16552] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1795119910 [EditorId] 1795119910 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15656] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1025162641 [EditorId] 1025162641 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16552] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1795119910 [EditorId] 1795119910 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15656] Host "[IP] 192.168.0.111 [Port] 0 [Flags] 2 [Guid] 1025162641 [EditorId] 1025162641 [Version] 1048832 [Id] WindowsEditor(7,I-13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1416.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005972 seconds.
-- Loaded All Assemblies, in  0.351 seconds
+Registered in 0.409474 seconds.
+- Loaded All Assemblies, in  6.377 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 189 ms
+Android Extension - Scanning For ADB Devices 282 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.538 seconds
-Domain Reload Profiling: 889ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 7049ms
+	BeginReloadAssembly (4342ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (357ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (120ms)
+	initialDomainReloadingComplete (452ms)
+	LoadAllAssembliesAndSetupDomain (1216ms)
+		LoadAssemblies (4342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (1213ms)
+			TypeCache.Refresh (1212ms)
+				TypeCache.ScanAssembly (971ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (539ms)
+	FinalizeReload (673ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (483ms)
+		SetupLoadedEditorAssemblies (621ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (303ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (472ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 889ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.669 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.480 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,67 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.685 seconds
-Domain Reload Profiling: 1354ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 6119ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (440ms)
-		LoadAssemblies (308ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (5278ms)
+		LoadAssemblies (4730ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (172ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (685ms)
+		AnalyzeDomain (623ms)
+			TypeCache.Refresh (601ms)
+				TypeCache.ScanAssembly (544ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (640ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (502ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Failed to load shader (instanceID 438, GUID 209f4c3496c1b46a3a2f9f0f27be788f)
+Failed to load shader (instanceID 446, GUID 911130a939bf84843bcc4211c327f579)
+Failed to load shader (instanceID 416, GUID c84d57d423a2042eb92da86f9fa670a3)
+Failed to load shader (instanceID 414, GUID 1ccecd9b89b8a4f14bfb64f29ddfcc81)
+Failed to load shader (instanceID 428, GUID 04b5dda5f278e4f56a9dbda64d90bb95)
+Failed to load shader (instanceID 424, GUID 4293210a3280c4283b9872316017f1f9)
+Failed to load shader (instanceID 440, GUID 8ca8b34aa013842f3b399b6961e7dc3b)
+Failed to load shader (instanceID 430, GUID e8c3a1662a88140ae84d69a3a4cfdbaa)
+Failed to load shader (instanceID 434, GUID 4300ae919783d4fa38001d745fbdecc1)
+Failed to load shader (instanceID 418, GUID cfa7edf01005f4e338d973cea2f6eab3)
+Failed to load shader (instanceID 420, GUID 35e778fba8b2b49a198d8d7cfced67eb)
+Failed to load shader (instanceID 436, GUID a07688e921e974338945464731e069ce)
+Failed to load shader (instanceID 422, GUID 86212504c7e9f468db2300dc5932dc17)
+Failed to load shader (instanceID 426, GUID d6e5744ac426949ff8c0f02936689d4c)
+Failed to load shader (instanceID 448, GUID 24f9f312f97bd48dba1a728d58c89842)
+Failed to load shader (instanceID 450, GUID 6f37d9e45fbae41b386f76d3bfefec4a)
+Failed to load shader (instanceID 442, GUID 1fd883d610b2f42a98fc7abaf6809430)
+Failed to load shader (instanceID 412, GUID c26db15b9a2ed4b2ebefefd26ce85ae1)
+Failed to load shader (instanceID 444, GUID 25b8a80cb03994c769145599929a5e97)
+Failed to load shader (instanceID 432, GUID 33cb4e8ff0c1d43ac8ec40692656c7ed)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3470 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (114.4 KB). Loaded Objects now: 3938.
-Memory consumption went from 146.1 MB to 146.0 MB.
-Total: 3.304500 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.268200 ms MarkObjects: 2.531200 ms  DeleteObjects: 0.182700 ms)
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3572.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 2.909300 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.284800 ms MarkObjects: 2.295200 ms  DeleteObjects: 0.087700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,44 +207,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 12078.130780 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube-half.fbx
-  artifactKey: Guid(6dec41e1a8e2ef544990740fdfb17a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cube-half.fbx using Guid(6dec41e1a8e2ef544990740fdfb17a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30adcda623d1e39092bea1ea05ee9933') in 0.112202 seconds
+  Time since last request: 1428.226827 seconds.
+  path: Assets/Model
+  artifactKey: Guid(bd2375fe52ab16b4c87e1857a76df0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model using Guid(bd2375fe52ab16b4c87e1857a76df0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120d613a54e21988c6aa099db82eccc3') in 0.002230 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-half-section.fbx
-  artifactKey: Guid(b3ad63e1046ab7d4aafbb02883518920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-half-section.fbx using Guid(b3ad63e1046ab7d4aafbb02883518920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e184097db1af35ae020675b4e122746') in 0.023302 seconds
+  Time since last request: 306.509199 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_01.png
+  artifactKey: Guid(d6275ba61824d4149b2b00333fbea17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_01.png using Guid(d6275ba61824d4149b2b00333fbea17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b7f913da90f3dd7d08bfb8cda2e1b') in 0.053371 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-section.fbx
-  artifactKey: Guid(5dcde9311f10fe94a8f0fe9b8ff1a2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/pipe-section.fbx using Guid(5dcde9311f10fe94a8f0fe9b8ff1a2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bcee9bf231331ad65eda58313e68c4') in 0.020029 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_04.png
+  artifactKey: Guid(144c44203c4e8ac4f9b214b014cf022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_04.png using Guid(144c44203c4e8ac4f9b214b014cf022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764d308aaab5792845c78dc2762fd65e') in 0.013682 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder.fbx
-  artifactKey: Guid(f300820d1e653d0449867cb33c152a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-cylinder.fbx using Guid(f300820d1e653d0449867cb33c152a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cb5488f8433c15305342c6111e2f72') in 0.023605 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_12.png
+  artifactKey: Guid(7f866243006ca674db5b791b5443e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_12.png using Guid(7f866243006ca674db5b791b5443e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab89939a05dff3b89e4471590cda5891') in 0.015353 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx
-  artifactKey: Guid(4316f3fb2b043ef4f8d061bcd0d03568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kenney_prototype-kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx using Guid(4316f3fb2b043ef4f8d061bcd0d03568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2696cdc7173d087f9b597f549897fc') in 0.021788 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_05.png
+  artifactKey: Guid(cef96036b86f4b740b65ecb0d7ed930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_05.png using Guid(cef96036b86f4b740b65ecb0d7ed930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74de799cde90f39d9a7db048ad07102f') in 0.012039 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_10.png
+  artifactKey: Guid(6452cf061f1c0e64cab962808c9488fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_10.png using Guid(6452cf061f1c0e64cab962808c9488fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1259dbbde9c2001abe509c48498459cc') in 0.013772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_03.png
+  artifactKey: Guid(6d7f9d74c0725534681f70252ba027a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_03.png using Guid(6d7f9d74c0725534681f70252ba027a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1ccabcc5f509d6040b548333048a76') in 0.013242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/kenney_prototype-textures/PNG/Green/texture_06.png
+  artifactKey: Guid(1ab260b93b530d446856d38ca845fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kenney_prototype-textures/PNG/Green/texture_06.png using Guid(1ab260b93b530d446856d38ca845fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5c9151007dc99fbda5bef883fe3522') in 0.012851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
